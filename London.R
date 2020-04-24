@@ -1,7 +1,7 @@
 #---------------------------------------------------------------------------------------------------------
 # Set working directory
 #----------------------
-setwd("~/Dropbox/Social Network A/Progetto/Datasets/directory")
+setwd()
 
 #---------------------------------------------------------------------------------------------------------
 # Libraries
@@ -21,8 +21,8 @@ library(igraph)
 #---------------------------------------------------------------------------------------------------------
 # Loading data
 #-------------------
-dati <- read.csv("~/Dropbox/Social Network A/Progetto/Datasets/directory/London Gang/CSV/LONDON_GANG.csv", row.names=1)
-attr <- read.csv("~/Dropbox/Social Network A/Progetto/Datasets/directory/London Gang/CSV/LONDON_GANG_ATTR.csv")
+dati <- read.csv("LONDON_GANG.csv", row.names=1)
+attr <- read.csv("LONDON_GANG_ATTR.csv")
 
 #---------------------------------------------------------------------------------------------------------
 # Summary statistics
